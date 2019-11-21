@@ -1,0 +1,10 @@
+Total in Application - 10000
+BOT Scope - <=3 Hits - 7000
+BOT Picked - 5000 - Grand Total from Hourly Report
+BOT Completed - L2 & Pass from Hourly
+BOT Reassigned - L1 & Human L1 from Hourly Report
+BOT Success Percentage - L2 & Pass/ BOT Picked
+BOT Reassigned L1 & Human L1/ BOT Picked
+Overall BOT Picked Percentage - BOT Picked/Total in Application
+Total with Human - BOT Reassigned + (Total in Application-BOT Picked)
+BOT Success on Total Volume - BOT Completed/Total in Application

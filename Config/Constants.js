@@ -1,3 +1,6 @@
+var path=require('path');
+
+console.log(path.join(__dirname+'/../json/CCpaths.json')+' dir name');
 module.exports = {
     system: {
         admin: {
@@ -135,16 +138,21 @@ module.exports = {
         preContract: 'BaiAjal-PreContract',
         PostContract: 'BaiAjal-PostContract',
         FIRCO: {
+
             ROOT_FOLDER: 'D:\\Node Workspace\\share folder\\Prod\\BO\\Firco Payment Screening\\',
             SUB_FOLDER: '\\Report\\',
             INPUT_FOLDER: 'D:\\Node Workspace\\share folder\\Prod\\Dashboard Input\\',
             OUTPUT_JSON: 'D:\\Node Workspace\\bau\\json\\GeneralOutput.json'
         }
     },
+    
     CC: {
         QUEUES_ARR: ['ARB_CLAIMS_ARB', 'Claims_ARB_Cus_ARB_POS', 'Claims_ARB_Cus_Local_ATM_POS', 'POS'],
-        pathsJSON: "D:\\Node Workspace\\bau\\json\\CCPaths.json",
-        outPutTxt: "D:\\Node Workspace\\bau\\json\CCOutPut.txt",
+        pathsJSON:path.join(__dirname+'/../json/CCpaths.json'),
+        
+        //pathsJSON: "D:\\Node Workspace\\bau\\json\\CCPaths.json",
+        //outPutTxt: "F:\\OCR\\OCR-API\\bau\\json\\CCOutPut.txt",
+        outPutTxt:path.join(__dirname+'/../json/CCOutPut.txt'),
         folders: [
             'D:\\Node Workspace\\share folder\\CC_MSD\\Ammend Installments\\Logs',
             'D:\\Node Workspace\\share folder\\CC_MSD\\Cash Acceptance Claims\\Logs',

@@ -21,7 +21,9 @@ router.get('/getqueues/:dept?', (req, res, next) => {
 });
 
 router.post('/resumeorpausequeue', (req, res, next) => {
+	//console.log(req.body.conditions.queueId+' id '+req.body.conditions.department+' '+req.body.updateFields.running)
 	if (_.isUndefined(req.body.conditions.queueId) || _.isUndefined(req.body.conditions.department) || _.isUndefined(req.body.updateFields.running)) {
+		
 		res.json({
 			success: false,
 			msg: 'Restricted Condition.'

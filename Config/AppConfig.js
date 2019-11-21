@@ -1,7 +1,7 @@
 module.exports = {
 
 	database: {
-		name: 'BluePrismDB',
+		name: 'PROD',
 		username: 'robotics',
 		password: 'Admin@123',
 		host: '192.168.1.83',
