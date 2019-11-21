@@ -69,8 +69,10 @@ module.exports = {
         Deleted: 'Deleted'
     },
     PO: {
-        pathsJSON: "D:\\Node Workspace\\bau\\json\\POPaths.json",
-        outPutTxt: "D:\\Node Workspace\\bau\\json\\POOutPut.txt",
+        pathsJSON:path.join(__dirname+'/../json/POPaths.json'),
+       // pathsJSON: "D:\\Node Workspace\\bau\\json\\POPaths.json",
+       outPutTxt:path.join(__dirname+'/../json/POOutPut.txt'),
+        //outPutTxt: "D:\\Node Workspace\\bau\\json\\POOutPut.txt",
         watani2: {
             subPath: "Watani 2\\Logs\\",
             noOfBots: 30,

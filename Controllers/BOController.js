@@ -29,8 +29,9 @@ router.get('/getbajlexceptions', (req, res, next) => {
 // 	}
 // });
 
-router.get('/issamahealthy/:process', (req, res, next) => {
-	if (!_.isUndefined(req.params.process) && Constants.SAMA.shortHand.indexOf(req.params.process) > Constants.number.ONE) {
+router.get('/issamahealthy/:process?', (req, res, next) => {
+	console.log(req.query.process+' process')
+	if (!_.isUndefined(req.query.process) && Constants.SAMA.shortHand.indexOf(req.query.process) > Constants.number.ONE) {
 		return BOService.getCurrentStatus(req, res);
 	} else {
 		res.json({

@@ -8,7 +8,7 @@ const _ = require('lodash');
 const AccessService = require('../Service/AccessService');
 
 router.get('/getqueues/:dept?', (req, res, next) => {
-	console.log(req.query.dept+' dept')
+	console.log(req.query.dept+' depts')
 	
 	if (_.isUndefined(req.query.dept)) {
 		res.json({

@@ -4,7 +4,7 @@ var Constants = require('../config/Constants');
 const TOService = require('../Service/TOService');
 const _ = require('lodash');
 
-router.get('/gettardeeports/:queueName', (req, res, next) => {
+router.get('/gettardeeports/:queueName?', (req, res, next) => {
     // return TOService.getVolumeReport(req, res);
     res.json({
         "success": true,

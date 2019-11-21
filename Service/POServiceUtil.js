@@ -38,12 +38,13 @@ module.exports.reportsoFPo = function (req, callback) {
                     botReassignedPercentage: 0,
                 },
                 grandTotal: {
+                    totalVolume: 0,
                     totalApproved: 0,
                     totalRejected: 0,
                     totalReassigned: 0,
                     totalBotSucessPercentage: 0,
-                    totalBotReassignedPercentage: 0,
-                    totalVolume: 0
+                    totalBotReassignedPercentage: 0
+                    
                 }
             };
 

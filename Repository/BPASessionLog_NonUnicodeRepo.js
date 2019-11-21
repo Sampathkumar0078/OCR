@@ -8,9 +8,9 @@ module.exports.getCurrentStatus = function (req, callback) {
     BPASessionLog_NonUnicode.find(
         {
             where: {
-                processname: { [Op.eq]: Constants.SAMA[req.params.process].processName },
-                pagename: { [Op.eq]: Constants.SAMA[req.params.process].pageName },
-                stagename: { [Op.eq]: Constants.SAMA[req.params.process].stageName }
+                processname: { [Op.eq]: Constants.SAMA[req.query.process].processName },
+                pagename: { [Op.eq]: Constants.SAMA[req.query.process].pageName },
+                stagename: { [Op.eq]: Constants.SAMA[req.query.process].stageName }
             },
             order: [
                 ['startdatetime', Constants.SORT.DESC]
