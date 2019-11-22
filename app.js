@@ -12,7 +12,7 @@ var db2 = require('./Models2');
 const Constants = require('./config/Constants');
 var say = require('say');
 
-const app = express();
+var app = express();
 
 // // CORS middleware
 app.use(cors());
@@ -57,15 +57,41 @@ const admin = require('./Controllers/AdminController');{
 app.use('/admin', admin);
 }
 
+// const esr = require('./Controllers/ESRCOntroller');
+// {
+// app.use('/esr', esr);
+// }
 
+const esrc=require('./ESR/Controllers/ESRBOController');{
+	console.log('in esrc')
+	app.use('/esrc',esrc)
+}
 
-const esr = require('./Controllers/ESRCOntroller');
-app.use('/esr', esr);
+const exception=require('./ESR/Controllers/ExcptionController');{
+	app.use('/exception',exception)
+}
 
+const mesc=require('./ESR/Controllers/MESController');{
+	app.use('/mesc',mesc)
+}
+
+const bots=require('./ESR/Controllers/TotalBots');{
+	app.use('/bots',bots)
+}
+
+const cpv=require('./ESR/Controllers/CPVController');{
+	app.use('/cpv',cpv)
+}
+
+const cic=require('./ESR/Controllers/CIController');{
+	app.use('/cic',cic)
+}
 
 app.get('*', (req, res) => {
 	res.sendFile(path.join(__dirname, 'Public/index.html'));
 });
+
+
 
 app.listen(AppConfig.application.port, () => {
 	console.log('server started on port ' + AppConfig.application.port);
