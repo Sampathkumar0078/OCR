@@ -197,7 +197,8 @@ module.exports.msdUtil = function (req, callback) {
             var globalCount = 0;
             var rawResult = [];
             var iteratorFcn = function (data, done) {
-                console.log("IterationFcn");
+               
+                console.log("IterationFcn"+done);
                 globalCount = data.ammendInstallments.length +
                     data.cashAcceptanceClaims.length +
                     data.changeProduct.length +

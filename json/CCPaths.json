@@ -1,1 +1,39 @@
-{"ammendInstallments":[],"cashAcceptanceClaims":[],"changeProduct":[],"enableCc":[],"linkContracts":[],"merchantClaims":[],"noc":[],"partialPayment":[],"reIssueCreditCard":[]}
+{
+    "ammendInstallments": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Ammend Installments\\Logs\\07Mar2019\\CC_AmendInstallment_HOROBOCCPRD3V_03-04-2019.xlsx"
+    ],
+    "cashAcceptanceClaims": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Cash Acceptance Claims\\Logs\\07Mar2019\\CC_CashAcceptanceClaim_HOROBOCCPRD36V_03-04-2019.xlsx"
+    ],
+    "changeProduct": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD11V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD12V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD155V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD165V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD30V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD35V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD38V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD6V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD7V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD8V_03-04-2019.xlsx",
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Change Product\\Logs\\07Mar2019\\CC_ChangeProduct_HOROBOCCPRD94V_03-04-2019.xlsx"
+    ],
+    "enableCc": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Enable CC\\Logs\\07Mar2019\\CC_EnableCC_HOROBOCCPRD154V_03-04-2019.xlsx"
+    ],
+    "linkContracts": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Link Contracts\\Logs\\07Mar2019\\CC_LinkContract_HOROBOCCPRD52V_03-04-2019.xlsx"
+    ],
+    "merchantClaims": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Merchant claims\\Logs\\07Mar2019\\CC_MerchantClaim_HOROBOCCPRD89V_03-04-2019.xlsx"
+    ],
+    "noc": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\NOC\\Logs\\07Mar2019\\CC_NOC_HOROBOCCPRD9V_03-04-2019.xlsx"
+    ],
+    "partialPayment": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Partial Payment - Watani\\Logs\\07Mar2019\\CC_PartialWatani_HOROBOCCPRD31V_03-04-2019.xlsx"
+    ],
+    "reIssueCreditCard": [
+        "D:\\Node Workspace\\share folder\\CC_MSD\\Reissue Credit Card\\Logs\\07Mar2019\\CC_ReissueCreditCard_HOROBOCCPRD105V_03-04-2019.xlsx"
+    ]
+}
